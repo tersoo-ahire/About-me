@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Me</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="sample-website.css">
+    </head>
+    <style>
+        input[type=text], input[type=email]{
+            width: 250px;
+            padding: 15px;
+            margin-top: 5px;
+            display: inline-block;
+            box-sizing: border-box;
+            background: #f1f1f1;
+            border: 1px solid rgb(23, 146, 177);
+        }
+        textarea {
+            width: 250px;
+            height: 150px;
+            padding: 15px;
+            margin-top: 5px;
+            display: inline-block;
+            box-sizing: border-box;
+            background: #f1f1f1;
+            border: 1px solid rgb(23, 146, 177);
+        }
+        input[type=submit] {
+            background-color: rgb(23, 146, 177);
+            border: 1px solid rgb(23, 146, 177);
+            border-radius: 8%;
+            color: white;
+            font-size: 20px;
+            padding: 16px 32px;
+            text-decoration: none;
+            margin: 4px 2px;
+            cursor: pointer;
+            box-shadow: 2px 2px #888888;
+        }
+    </style>
+    <body>
+        <header>
+            <!-- Main navigation links -->
+            <div class="topnav" >
+                <nav>
+                    <a class="links" href="sample-website.html">Home</a>
+                    <a class="links" href="contact.html">Contact</a>
+                    <a class="links" href="register.html">Register</a>
+                    <a class="links" href="login.html">Login</a>
+                </nav>
+            </div>
+        </header>
+        <main>
+            <form>
+                <div class="container">
+                    <div class="alignform">
+                    <legend><strong style="font-size: 22px;" >Contact Me</strong></legend><br>
+                    
+                    <label for="fname">Name</label><br>
+                    <input type="text" id="fname" name="fullname" placeholder="Your Fullname" required><br><br>
+
+                    <label for="mail">Email</label><br>
+                    <input type="email" id="mail" name="contacts email" placeholder="Your Email" required><br><br>
+
+                    <label for="subject">Subject</label><br>
+                    <textarea name="subject" id="subject" placeholder="Send me a message" required></textarea><br><br>
+                    
+                    <input type="submit" value="Submit">
+                    </div>
+                </div>
+            </form>  
+        </main>   
+            <!-- Footer -->
+        <footer class ="foot">
+            <a class="foots"  href="contact.html" target="_blank">Contact</a>
+        </footer>
+    </body>
+</html>
